@@ -16,7 +16,7 @@ RUN apk update && apk add \
 # Install homebridge                             #
 ##################################################
 
-RUN npm install -g homebridge
+RUN npm install -g homebridge@0.3.4
 
 ##################################################
 # Start                                          #
